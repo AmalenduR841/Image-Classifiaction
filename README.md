@@ -9,9 +9,9 @@ The optimizer used is Adam and the loss function is categorical cross-entropy.
 
 ## Training Process:
 
-The dataset is loaded using ImageDataGenerator with rescaling and validation split.
-Separate generators are created for training and validation data with a batch size of 32.
-The model is trained for 10 epochs and the accuracy and loss are monitored.
-The model is evaluated on the validation data after each epoch.
-The training accuracy and validation accuracy are plotted over time.
-The loss on both the training and validation set is also plotted over time.
+* The dataset is loaded using ImageDataGenerator with rescaling and validation split.
+* Separate generators are created for training and validation data with a batch size of 32.
+* The model is trained for 10 epochs and the accuracy and loss are monitored.
+* The model is evaluated on the validation data after each epoch.
+* The training accuracy and validation accuracy are plotted over time.
+* The loss on both the training and validation set is also plotted over time.
