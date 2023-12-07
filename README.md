@@ -15,3 +15,9 @@ The optimizer used is Adam and the loss function is categorical cross-entropy.
 * The model is evaluated on the validation data after each epoch.
 * The training accuracy and validation accuracy are plotted over time.
 * The loss on both the training and validation set is also plotted over time.
+
+## Results:
+* The model achieves a validation accuracy of 87.10% after 10 epochs.
+* The training and validation accuracy curves show that the model is learning and generalizing well and the plots are attached the repository.
+* The loss curves show that the model is able to optimize the loss function effectively.
+* The model is successfully trained and can be used to classify images into 5 different classes.
